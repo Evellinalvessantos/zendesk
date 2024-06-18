@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="cart.css">
+ 
+  <title>Document</title>
+</head>
+<body>
+  <div class="header">
+<p>Reusedecor</p>
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="product.html">Produtos</a></li>
+  <li><a href="about.html">Sobre</a></li>
+  <li><a href="productDeatails.html">Detalhes</a></li>
+</ul>
+  </div>
+<div class="container">
+<div class="cart">
+<div class="top">
+<h2>Shopping</h2>
+<h2 id="itemA">4 Items</h2>
+</div>
+<table cellspacing="0" class="table-head">
+  <tr>
+    <th width="150" class="head-img">Imagem</th>
+    <th width="360">Nome</th>
+    <th width="150">Preço</th>
+    <th width="70">Deletar</th>
+  </tr>
+</table>
+<table id="root" cellspacing="0"></table>
+<hr>
+</div>
+
+<div class="summary">
+<div class="top">
+</div>
+<div class="detail">
+ <h2 id="itemB">4 Items</h2>
+ <h2 id="totalA">$ 600.00</h2>
+</div>
+<div style="margin-top: 30px; padding: 0 30px;">
+  <h2>Produtos</h2>
+  <input type="text" placeholder="">
+  <h2>Código de Promoção</h2>
+  <input type="text" placeholder="Insira seu Código" id="promocode">
+  <button class="first-btn" id="promo" onclick="promo()">Aplicar</button>
+</div>
+<hr>
+<div class="top">
+  <h2>Total</h2>
+  <h2 id="totalB">$ 600.00</h2>
+</div>
+<div style="padding: 0 10px; margin-bottom: 20px;">
+  <button class="checkout">Conta</button>
+</div>
+<div>
+
+
+
+  <script src="cart.js"></script>
+</body>
+</html>
+
+  
